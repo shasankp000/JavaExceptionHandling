@@ -10,7 +10,7 @@ public class TryCatch {
         try {
 
             int div = 10/0; // will raise an exception
-
+            System.out.println(div);
         }
         catch (ArithmeticException exception) {
 
